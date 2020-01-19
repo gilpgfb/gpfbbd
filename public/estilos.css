@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif
+}
+
+li.doc {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+mis-checks {
+  display: flex;
+  flex-direction: column;
+}
+
+mis-checks label {
+  display: flex;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset>input, fieldset>select {
+  width: 100%;
+}
+
+.usuarios {
+  list-style: none;
+}
+
+.usuarios li {
+  display: flex;
+}
+
+.usuarios li figure {
+  width: 50%;
+}
+
+figure img {
+  width: 100%;
+}
